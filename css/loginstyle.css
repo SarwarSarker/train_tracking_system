@@ -1,0 +1,197 @@
+@import url('https:fonts.googleapis.com/css?family=Roboto');
+
+body{
+	font-family : 'Roboto',sans-serif;
+	background-size : cover;
+}
+
+navbar .list-group-item {
+    border-radius: 0;
+    background-color: #333;
+    color: #ccc;
+    border-left: 0;
+    border-right: 0;
+    border-color: #2c2c2c;
+    white-space: nowrap;
+}
+.main-section{
+	margin : auto;
+	margin-top :130px ;
+	padding : 0;
+	box-shadow: 0px 0px 3px #848484;
+}
+.user-img img{
+	height:100px;
+	width:100px;
+	border-radius:5px;
+}
+.form-group{
+	margin-bottom:25px;
+}
+.form-group input{
+	width: 93%;
+	height:20px;
+	border-radius:5px;
+	border:0;
+	font-size:18px;
+}
+.form-group select{
+	width: 93%;
+	height:20px;
+	border-radius:5px;
+	border:0;
+	font-size:18px;
+}
+.ok{
+  margin:10px;
+}
+#mar{
+	padding:20px;
+	
+	
+}
+.card{
+	background-color : lightgray;
+    min-height: 420px;
+}
+.card-body{
+	background-color :white;
+}
+#sar{
+	padding:20px;
+	
+}
+.text-large{
+	font-size: 54%;
+}
+#new{
+	background-color :lightgray;
+	
+}
+#jam{
+	border: 5px solid white;
+	padding: 50px,60px;
+	min-height: 60px;
+	min-width: 60px;
+	background-color: #dbe9d8 ;
+	
+}
+
+
+.contact_part {
+    height: 270px;
+    background: #0c2235;
+}
+
+.contact_part_inn {
+    height: 100%;
+}
+
+.contact_part_inn_contact,
+.contact_part_inn_find,
+.contact_part_inn_shop {
+    height: 100%;
+    float: left;
+
+}
+
+
+.contact_part_inn_find h1,
+.contact_part_inn_shop h1 {
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #fbfbfb;
+    margin-top: 50px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+}
+
+.contact_part_inn_contact h2 {
+    font-family: 'Lato', sans-serif;
+    margin-top: 70px;
+    font-size: 14px;
+    color: #fbfbfb;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+.contact_part_inn_contact i {
+    margin-top: 70px;
+    font-size: 16px;
+    color: #fbfbfb;
+    padding-right: 10px;
+}
+
+.contact_part_inn_contact i:hover {
+    color: #ff751a;
+}
+
+.contact_part_inn_contact {
+    margin-left: 12.5%;
+    height: 75%;
+    margin-top: 3%;
+}
+
+/*------------------------------*/
+
+.contact_part_inn_find,
+.contact_part_inn_shop{
+    padding-bottom: 100px;
+    height: 75%;
+    margin-top: 3%;
+}
+
+.contact_part_inn_find_items,
+.contact_part_inn_shop_items{
+    margin-top: 30px;
+}
+
+.contact_part_inn_find_items h2,
+.contact_part_inn_shop_items h2 {
+    color: #fbfbfb;
+    font-size: 16px;
+    line-height: 35px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+.contact_part_inn_find_items h2:hover,
+.contact_part_inn_shop_items h2:hover{
+    color: #ff751a;
+}
+
+.footer_part {
+    height: 80px;
+    background:#2a3642;
+}
+
+.footer_part_inn {
+    height: 100%;
+}
+.last {
+
+    font-family: 'Shrikhand';
+    font-size: 30px;
+    color: white;
+    text-shadow: 0px 1px 2px rgba(0,0,0,0.2);
+    
+}
+.footer_part_inn h1 {
+    color: #fbfbfb;
+    text-align: center;
+    font-size: 16px;
+    padding-top: 30px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+.msg {
+    margin: 30px auto; 
+    padding: 10px; 
+    border-radius: 5px; 
+    color: #3c763d; 
+    background: #dff0d8; 
+    border: 1px solid #3c763d;
+    width: 50%;
+    text-align: center;
+}

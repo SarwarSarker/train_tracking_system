@@ -1,0 +1,287 @@
+
+
+body{font-family: 'Poppins', sans-serif;
+     background: #fafafa}
+	 
+p{font-family: 'Poppins', sans-serif;
+  font-size: 1.1em;
+	font-weight: 300;
+	line-height: 1.7em;
+	color: black;
+}
+.icon {
+
+    font-family: 'Shrikhand';
+    font-size: 30px;
+    color: white;
+    text-shadow: 0px 1px 2px rgba(0,0,0,0.2);
+   
+}
+a,
+a:hover,
+a:focus{
+	color: inherit;
+	text-decoration: none;
+	transition: all 0.2s;
+}
+.navbar{
+	padding: 25px 20px;
+	color:white;
+	background: #2c4a5d;
+	box-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+	margin-left:-15px;
+	margin-right:-15px;
+	
+}
+.navbar ul li{
+	padding-left: 25px;
+	padding-right: 25px;
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.1);
+}
+
+
+.navbar ul li a:hover {
+    
+    background: #c28b83;
+}
+
+.navbar ul li a.dropdown-item:hover {
+    width: 110px;
+    background: #c28b83;
+}
+
+
+#sidebar {
+    min-width: 100%;
+    max-width: 100%;
+	height:100%;
+    background: ;
+    color: #fff;
+    transition: all 0.3s;
+}
+
+
+#sidebar ul.components{
+	padding: 20px 0px;
+	border-bottom: 1px solid #47748b;
+}
+
+#sidebar ul p{
+	padding: 10px;
+	font-size: 1.1em;
+	display: block;
+}
+
+#sidebar ul li a{
+	padding: 25px;
+	font-size: 1.1em;
+	display: block;
+	 background: #3AAFA9;
+}
+#sidebar ul li a:hover {
+    color: white;
+    background: #24305E;
+}
+
+#sidebar ul li.active>a,
+a[aria-expanded="true"] {
+    color: #fff;
+    background: ;
+}
+a[data-toggle="collapse"] {
+    position: relative;
+}
+.dropdown-toggle::after {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+
+
+ ul.CTAs {
+    padding: 20px;
+}
+
+ ul.CTAs a {
+    text-align: center;
+    font-size: 0.9em !important;
+    display: block;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+
+img{
+	
+}
+
+.btn{
+	margin-left:15px;
+}
+
+#own_posts{
+	padding: 80px;
+	padding-top: 50px;
+	border-radius: 35px;
+	
+}
+.post{
+	border: 5px solid white;
+	height: 260px;
+	background-color: #dbe9d8 ;
+	border-radius: 35px;
+	margin:30px;
+}
+body{
+	background-color:  #f0eceb;
+}
+.box{
+	border: 5px solid white;
+	background-color: #dbe9d8 ;
+}
+
+
+#insert_post{
+	border: 15px solid #e6e6e5;
+	padding-top: 50px;
+	margin-top:50px;
+	background-color: #6ed3cf;
+}
+
+.background_b {
+
+    background: linear-gradient(to right bottom, rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('../img/bg2.png');
+       width: 100%;
+    height: 350px;
+    background-size: cover;
+    background-position: 100% 60%;
+    display: flex;
+
+}
+.background_c {
+
+    background: linear-gradient(to right bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url('../img/bg8.png');
+    width: 100%;
+    height: 370px;
+    background-size: cover;
+    background-position: 100% 60%;
+    display: flex;
+
+}
+.mr-ten {
+
+    margin-top: 0px !important;
+
+}
+
+
+.bg_item {
+
+    color: #fff;
+    width: 50%;
+
+}
+
+.bg_item .center_item {
+
+    width: 70%;
+    height: 100%;
+    margin: 10% auto 0 auto;
+
+}
+
+.align-btn {
+
+    width: 60%;
+    margin: 20% auto 0 auto;
+
+}
+.ui.primary.button {
+
+    background: #3AC0FF;
+    margin-left: 230px;
+    padding: 12px;
+
+}
+.ui.primary.button {
+    
+	box-shadow: 0 0 0 0 rgba(34,36,38,.15) inset;
+
+}
+.ui.primary.button, .ui.primary.buttons .button {
+
+    color: #fff;
+    text-shadow: none;
+
+}
+.ui.button {
+
+    cursor: pointer;
+    display: inline-block;
+    min-height: 1em;
+    outline: 0;
+    border: none;
+    vertical-align: baseline;
+    font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+    margin: 0 .25em 0 0;
+    text-transform: none;
+    font-weight: 700;
+    line-height: 1em;
+    font-style: normal;
+    text-align: center;
+    text-decoration: none;
+    border-radius: .28571429rem;
+   -moz-user-select: none;
+    
+}
+
+.som{
+
+    min-height: 1rem;
+    font-size: 2rem;
+
+}
+.no {
+
+    margin: 0 0 10px;
+    color: #fff;
+	font-family: 'Roboto';
+	
+	line-height: 1.1em;
+}
+*, ::after, ::before {
+
+    
+    box-sizing: inherit;
+
+}
+.mon{
+    color:black;
+    min-height: 1rem;
+    font-size: 2rem;
+     
+}
+.yes {
+    color: #117ff9;
+    margin: 0 0 10px;
+    font-family: 'Roboto';
+	line-height: 0.9em;
+}
+#qw{
+	background: url('../img/2.png');
+}
+
+
+
+
+
+
+
+
+
+
+
+
